@@ -62,7 +62,7 @@ end
 	# end
 
 						#OR
-
+	# LinkedList 2 Exercise - Reverse list using mutation
 	def reverse_list(list, previous=nil)
   	while list 
   			current_node = list
