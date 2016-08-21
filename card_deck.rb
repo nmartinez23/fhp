@@ -1,4 +1,5 @@
 class Card
+  # allows access to data attributes outside of the class
   attr_accessor :rank, :suit
 
   def initialize(rank, suit)
@@ -10,6 +11,7 @@ class Card
     puts "#{self.rank} of #{self.suit}"
   end
 
+  # Class method which can also be coded as Card.random_card
   def self.random_card
     Card.new(rand(10), :spades)
   end
