@@ -15,8 +15,8 @@ class TreeSort
 		tree = BinaryTree.new(first, nil, nil)
 		rest = array.last(array.length - 1)
 
-						# loop through rest array for each element
-						# put the element into the tree at its position
+		# loop through rest array for each element
+		# put the element into the tree at its position
 		rest.each do |num|
 			current = tree
 			loop do 
